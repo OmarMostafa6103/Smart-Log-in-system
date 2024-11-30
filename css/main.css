@@ -1,0 +1,63 @@
+:root {
+    --main-color: rgb(41, 39, 60);
+}
+
+.mainColor {
+    color: var(--main-color);
+}
+
+#main {
+    background-image: linear-gradient(125deg, #000000 0% 30%, #191d1ed8 70% 100%);
+    min-height: 100vb;
+}
+
+#main h1 {
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: Lobster;
+}
+
+#main div.form {
+    background-image: linear-gradient(#2b304b5d 0% 100%);
+}
+
+div.Icon {
+    background-color: var(--main-color);
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-25%, -20%);
+}
+
+
+button {
+    background-color: var(--main-color);
+}
+
+#signUpForm a#rules {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#profile {
+    background-image: linear-gradient(rgba(102, 167, 197, 0.436) 0% 100%), url(../img/fafa81757e3652b79f021e2eca6775ea.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#profile h2 {
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: Lobster;
+}
+
+@media screen and (max-width:560px) {
+    #main div.widthControl {
+        width: 85% !important;
+    }
+}
